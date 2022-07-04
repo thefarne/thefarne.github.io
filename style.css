@@ -142,14 +142,25 @@ body {
 }
 
 .hr-lines {
-  display: block;
+  display: flex;
+  flex-direction: row;
   text-align: center;
-  overflow: hidden;
-  white-space: nowrap;
-  position: relative;
 }
 
+.hr-lines:before, .hr-lines:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 10px solid ;
+  border-bottom-color: rgba(255, 202, 0, 0.72);
+  margin: auto 15px;
+}
 
+.hr-lines: before {
+  margin-right: 10px;
+}
+
+.hr-lines: after {
+  margin-left: 10px;
 
 .gallery {
   padding: 10px;
