@@ -1,9 +1,5 @@
 /* Assessment Submitted by Caesar Farne */
 
-:root {
-  --background: linear-gradient(to right, red, orange); 
-}
-
 html {
   font-family: Arial, sans-serif;
 }
@@ -17,19 +13,14 @@ body {
   padding: 10px;
 }
 
-.header {
-  background-color: #ffc600;
-  width: 100%;
-}
-
-.navig {
+.header, .navig {
   width: 100%;
 }
 
 #menu {
   display: grid;
   grid-template-columns: auto auto auto auto auto; 
-  gap: 15px;
+  gap: 5px;
   list-style-position: inside;
   padding-left: 0;
 }
@@ -37,12 +28,11 @@ body {
 #menu li {
   background-color: #ffc600;
   list-style: none;
-  /*display: inline;*/
   width: 100%;
   text-align: center;
   font-weight: bold;
-  padding: 5px 5px 0 0;
-  margin: 5px;
+  padding: 10px 10px;
+  width: 90%;
 }
 
 .row2 {
@@ -158,6 +148,8 @@ body {
   white-space: nowrap;
   position: relative;
 }
+
+
 
 .gallery {
   padding: 10px;
